@@ -1,0 +1,34 @@
+﻿  Deque.cpp
+  Menu.cpp
+D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(294,1): warning C4144: '>': relational expression as switch expression
+  (compiling source file 'Menu.cpp')
+  D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(294,1):
+  the template instantiation context (the oldest one first) is
+  	D:\UNIV\Structuri de Date\Deque\Deque\Menu.cpp(5,10):
+  	see reference to class template instantiation 'Deque<int>' being compiled
+  	D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(280,1):
+  	while compiling class template member function 'void Deque<int>::delete_elem(int)'
+  		D:\UNIV\Structuri de Date\Deque\Deque\Menu.cpp(66,22):
+  		see the first reference to 'Deque<int>::delete_elem' in 'main'
+  
+D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(327,2): warning C4809: switch statement has redundant 'default' label; all possible 'case' labels are given
+  (compiling source file 'Menu.cpp')
+  
+D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(380,1): warning C4144: '>': relational expression as switch expression
+  (compiling source file 'Menu.cpp')
+  D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(380,1):
+  the template instantiation context (the oldest one first) is
+  	D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(371,1):
+  	while compiling class template member function 'void Deque<int>::insert(int,const T &)'
+          with
+          [
+              T=int
+          ]
+  		D:\UNIV\Structuri de Date\Deque\Deque\Menu.cpp(37,17):
+  		see the first reference to 'Deque<int>::insert' in 'main'
+  
+D:\UNIV\Structuri de Date\Deque\Deque\Deque.h(402,2): warning C4809: switch statement has redundant 'default' label; all possible 'case' labels are given
+  (compiling source file 'Menu.cpp')
+  
+  Generating Code...
+  Deque.vcxproj -> D:\UNIV\Structuri de Date\Deque\x64\Debug\Deque.exe
